@@ -12,7 +12,7 @@ function Share() {
 						alt=""
 						className="shareProfileImg"
 					/>
-					<input placeholder="What's in your mind" className="shareInput" />
+					<input placeholder="What's in your mind?" className="shareInput" />
 				</div>
 				<hr className="shareHr" />
 				<div className="shareBottom">
