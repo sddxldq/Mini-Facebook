@@ -7,12 +7,10 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router";
 
-
 export default function Profile() {
 	const PF = process.env.REACT_APP_PUBLIC_FOLDER;
 	const [user, setUser] = useState("");
 	const username = useParams().username;
-
 
 	useEffect(() => {
 		const fetchUsers = async () => {
@@ -31,12 +29,12 @@ export default function Profile() {
 					<div className="profileRightTop">
 						<div className="profileCover">
 							<img
-								src={user.coverPicture || `${PF}post/northVan.jpg`}
+								src={user ? PF + user.coverPicture : ``}
 								alt=""
 								className="profileCoverImg"
 							/>
 							<img
-								src={user.profilePicture || `${PF}person/psbe.jpg`}
+								src={user ? PF + user.profilePicture : ``}
 								alt=""
 								className="profileUserImg"
 							/>
@@ -48,7 +46,7 @@ export default function Profile() {
 					</div>
 					<div className="profileRightBottom">
 						<Feed username={username} />
-						<Rightbar user={user} />
+						{user._id &&<Rightbar user={user} />}
 					</div>
 				</div>
 			</div>
