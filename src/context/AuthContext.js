@@ -3,15 +3,15 @@ import AuthReducer from "./AuthReducer";
 
 const INITIAL_STATE = {
 	user: {
-		_id: "613535aee2064722ca3dc1a3",
-		username: "Alfred",
-		email: "alfred@gmail.com",
-		password: "$2b$10$wP0nf./KIIGMp/IPCc/9vOuTHu4pOj/AM6rq47JIdjegShZz9wveW",
+		_id: "61a35c294fa5a6a4165e90da",
+		username: "Daqian",
+		email: "daqian@gmail.com",
+		password: "$2b$10$7VXw/tejWZzXhy0y7Bd1juFqjEwDwCTR0fDS12u1DSxPUnxcFVaTe",
 		profilePicture: "person/psbe.jpg",
 		isAdmin: false,
 		desc: "Hello I am a mechanical engineer",
-		followers: ["613535d3e2064722ca3dc1a5", "613535ebe2064722ca3dc1a7"],
-		followings: ["613535d3e2064722ca3dc1a5", "613535ebe2064722ca3dc1a7"],
+		followers: ["61a349bda63e586bb9fcc67c", "61a352febf5193bc188eb8d7"],
+		followings: ["61a349bda63e586bb9fcc67c", "61a352febf5193bc188eb8d7"],
 		createdAt: { $date: { $numberLong: "1630877102817" } },
 		updatedAt: { $date: { $numberLong: "1630877379108" } },
 		__v: { $numberInt: "0" },
