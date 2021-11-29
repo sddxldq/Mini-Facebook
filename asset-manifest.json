@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Mini-Facebook/static/css/main.68698620.chunk.css",
-    "main.js": "/Mini-Facebook/static/js/main.25e384cf.chunk.js",
-    "main.js.map": "/Mini-Facebook/static/js/main.25e384cf.chunk.js.map",
-    "runtime-main.js": "/Mini-Facebook/static/js/runtime-main.6b1f4a7e.js",
-    "runtime-main.js.map": "/Mini-Facebook/static/js/runtime-main.6b1f4a7e.js.map",
-    "static/js/2.83c10a02.chunk.js": "/Mini-Facebook/static/js/2.83c10a02.chunk.js",
-    "static/js/2.83c10a02.chunk.js.map": "/Mini-Facebook/static/js/2.83c10a02.chunk.js.map",
-    "index.html": "/Mini-Facebook/index.html",
-    "static/css/main.68698620.chunk.css.map": "/Mini-Facebook/static/css/main.68698620.chunk.css.map",
-    "static/js/2.83c10a02.chunk.js.LICENSE.txt": "/Mini-Facebook/static/js/2.83c10a02.chunk.js.LICENSE.txt"
+    "main.css": "/FBdeploy/static/css/main.68698620.chunk.css",
+    "main.js": "/FBdeploy/static/js/main.25e384cf.chunk.js",
+    "main.js.map": "/FBdeploy/static/js/main.25e384cf.chunk.js.map",
+    "runtime-main.js": "/FBdeploy/static/js/runtime-main.357cc9a5.js",
+    "runtime-main.js.map": "/FBdeploy/static/js/runtime-main.357cc9a5.js.map",
+    "static/js/2.83c10a02.chunk.js": "/FBdeploy/static/js/2.83c10a02.chunk.js",
+    "static/js/2.83c10a02.chunk.js.map": "/FBdeploy/static/js/2.83c10a02.chunk.js.map",
+    "index.html": "/FBdeploy/index.html",
+    "static/css/main.68698620.chunk.css.map": "/FBdeploy/static/css/main.68698620.chunk.css.map",
+    "static/js/2.83c10a02.chunk.js.LICENSE.txt": "/FBdeploy/static/js/2.83c10a02.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b1f4a7e.js",
+    "static/js/runtime-main.357cc9a5.js",
     "static/js/2.83c10a02.chunk.js",
     "static/css/main.68698620.chunk.css",
     "static/js/main.25e384cf.chunk.js"
